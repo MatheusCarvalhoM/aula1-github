@@ -13,7 +13,7 @@ public class aula {
 		float peso=sc.nextFloat();
 		
 		float IMC= peso/(altura*altura);
-		
+		//Essa linha ira mostrar o resltado do IMC junto com a data e hora da consulta
 		System.out.printf("Seu IMC é: %.2f%n", IMC);
 		System.out.print("Data e hora consulta: "+ date.format(d));
 
